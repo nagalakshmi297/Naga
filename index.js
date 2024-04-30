@@ -1,6 +1,8 @@
 import express from 'express'
 import nodemailer from 'nodemailer'
-import Mail from '../NAGA/sendmail.js'
+import Mail from'../NAGA/sendmail.js';
+ 
+
 const app=express()
 
 app.get('/adhi/:email',(req,res)=>{
